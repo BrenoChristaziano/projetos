@@ -1,11 +1,11 @@
 body{
-    font-size: 2em;
+    font-size: 3em;
 }
 header{
     border: 1px solid black;
     background-color: black;
     height: 300px;
-    padding-top: 30px;
+    padding-top: 0px;
     text-align: center;
     color: white;
     margin: 0px;
@@ -16,6 +16,7 @@ h1{
 }
 .poucoescuro{
     color: rgba(255, 255, 255, 0.342);
+    margin-top: -25px;
 }
 a{
     text-decoration: none;
@@ -37,7 +38,8 @@ div{
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 500px;
+    height: 100%;
+    padding: 10px;
 
 
  }
@@ -47,14 +49,16 @@ div{
     color: white;
     min-width: 250px;
     max-width: 500px;
-    padding: 10px 10px 20px 0px;
+    text-align: left;
+    
  }
 .imagens2{
     background-image: url(pacote-d012/imagens/background002.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 500px;
+    height: 900px;
+    padding: 10px;
 }
 footer{
     background-color: black;
