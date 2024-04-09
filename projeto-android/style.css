@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+/* font-family: "Share Tech Mono", sans-serif; */
+/* eu fiz da maneira que eu conhecia, más para facilitar pode se criar variaveis, no exemplo a seguir */
+:root {
+    --cor-de-fundo: #a5eec6;
+    --cor-de-sombras:#36c275, #06361b;
+    --cor-escura:#06361b;
+
+    --fonte-padrão: Arial, Helvetica, sans-serif;
+    --fonte-titulo: "Bebas Neue", cursive;
+    --fonte-sub-titulo: "Share Tech Mono", sans-serif;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    line-height: 2em;
+
+}
+
+header{
+    background-image: linear-gradient(180deg,  #36c275e7, #06361b);
+    color: white;
+    border: 1px solid transparent;
+    height: 200px;
+    margin: 0px;
+    text-align: center;
+    font-size: 1.4em;
+    font-family: var(--fonte-titulo);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.473);
+}
+
+
+.externo::after{
+    content: "\00A0\🔗";
+}
+
+
+#texto{
+    border: 1px solid #2fa86300;
+    text-align: center;
+}
+
+nav{
+    background-color: #063d1e;
+    padding: 5px;
+    margin-top: -1px;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.281);
+}
+
+p{
+    text-indent: 25px;
+    text-align: justify;
+}
+
+h1,h2{
+    font-size: 1.8em;
+}
+
+.menu{
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    transition-duration: .8s;
+}
+
+.menu:hover{
+    background-color: #36c275;
+    color: var(--cor-escura);
+}
+a{
+    color: #034921;
+    text-decoration: none;
+    font-weight: bolder;
+
+
+}
+
+a:hover{
+    background-color: #063d1e;
+    color: white;
+    padding: 5px;
+}
+
+main{
+    border: 1px solid transparent;
+    background-color: white;
+    height: auto;
+    min-width: 400px;
+    max-width: 1000px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.452);
+    border-radius: 0px 0px 10px 10px;
+}
+
+mark{
+    background-color: white;
+    color: #063d1ed8;
+    font-weight: bolder;
+
+}
+
+.sub-titulo{
+    margin: 0px 5px;
+    border: -1px solid transparent;
+    border-radius: 40px;
+    font-family: "Share Tech Mono", sans-serif;
+    text-align: left;
+    padding: 5px;
+    background-image: linear-gradient(90deg, #063d1ed8, #36c275d7, #36c27546, white);
+
+}
+
+img{
+    width: 100%;
+}
+
+#pequena{
+    max-width: 350px;
+}
+
+div{
+    display: block;
+    text-align: center;
+}
+
+ul{
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}
+
+.mascote{
+    min-width: 400px;
+    min-height: 133px;
+    max-width: 800px;
+    max-height: 266px;
+}
+
+div.video{
+    position: relative;
+    background-color: #06361b;
+    height: 0px;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 1px;
+    padding-bottom: 50%;
+}
+
+.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 90%;
+    width: 90%;
+    text-align: center;
+}
+h3{
+    background-color: #1e6d40;
+    color: white;
+    margin: -10px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.final{
+    border: 1px solid transparent;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 10px;
+    background-color: #4bfa976c;
+    text-align: left;
+
+}
+
+footer{
+    background-color: #063d1e;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+}
+#fim{
+    background-color: #06361b;
+    color: white;
+    font-weight: bold;
+}
