@@ -48,6 +48,7 @@ div{
 
  .imagens1{
     background-image: url(pacote-d012/imagens/background001.jpg);
+    background-color: lightgray;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -68,6 +69,7 @@ div{
  }
 .imagens2{
     background-image: url(pacote-d012/imagens/background002.jpg);
+    background-color: lightgray;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
