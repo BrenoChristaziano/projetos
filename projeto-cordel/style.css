@@ -6,7 +6,7 @@
     --font2:   'Sriracha', cursive;
 }
 body{
-    font-size: 5vh;
+    font-size: 3vw;
     margin: 0px;
     font-family: var(--font2);
 }
@@ -19,15 +19,15 @@ header{
     margin-bottom: 100px; 
 }
 h1{
-    font-size: 15vh;
+    font-size: 10vw;
     font-family: var(--font1);
     font-variant: small-caps;
     font-weight: bold;
-    margin-top: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .poucoescuro{
     color: rgba(255, 255, 255, 0.527);
-    margin-top: -100px;
     font-size: 25px;
 }
 
@@ -41,16 +41,18 @@ a:hover{
 
 
 div{
-    margin: 60px 0px;
+    margin: 50px 0px;
     margin-left: 50px;
 }
 
- .imagens1{
+ .imagens1, .imagens2{
     background-image: url(pacote-d012/imagens/background001.jpg);
     background-color: lightgray;
     background-position: center center;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    box-shadow: inset 5px 5px 16px 0px rgba(0, 0, 0, 0.411);
     height: 100%;
     padding: 10px;
     margin: 0;
@@ -62,19 +64,13 @@ div{
     background-color: rgba(0, 0, 0, 0.466);
     color: white;
     min-width: 250px;
-    max-width: 700px;
+    max-width: 600px;
     text-align: left;
+    text-shadow: 2px 2px 0px black;
     
  }
 .imagens2{
     background-image: url(pacote-d012/imagens/background002.jpg);
-    background-color: lightgray;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100%;
-    padding: 10px;
-    margin: 0;
 }
 footer{
     background-color: black;
