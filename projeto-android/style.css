@@ -53,6 +53,11 @@ nav{
     box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.281);
 }
 
+#sub-titulo{
+    color: #034921; 
+    font-family: Share Tech Mono, sans-serif;
+}
+
 p{
     text-indent: 25px;
     text-align: justify;

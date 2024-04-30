@@ -1,0 +1,34 @@
+@charset "UTF-8";
+*{
+    margin: 10px;
+    padding: 10px;
+}
+:root {
+    --cor-de-fundo: #a5eec6;
+    --cor-de-sombras:#36c275, #06361b;
+    --cor-escura:#06361b;
+
+    --fonte-padrão: Arial, Helvetica, sans-serif;
+    --fonte-titulo: "Bebas Neue", cursive;
+    --fonte-sub-titulo: "Share Tech Mono", sans-serif;
+}
+
+body{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    line-height: 2em;
+
+}
+
+header{
+    color: black;
+}
+
+nav{
+    
+    display: none;
+}
+footer::after{
+    content: 'Impresso do site:file:///C:/Users/Cliente/Documents/meus%20projetos/projetos/projeto-android/index.html';
+}
