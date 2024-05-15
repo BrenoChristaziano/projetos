@@ -1,0 +1,27 @@
+*{
+    margin: 10px;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+}
+h1, p{
+    color: black;
+}
+.poucoescuro{
+    color: black;
+}
+header{
+    border: none;
+}
+div.imagens1{
+    background-image: none;
+    box-shadow: none;
+}
+div.imagens2{
+    background-image: none;
+    box-shadow: none;
+}
+footer::after{
+    content: "Impresso no site:file:///C:/Users/Cliente/Documents/meus%20projetos/projetos/projeto-cordel/index.html";
+}
